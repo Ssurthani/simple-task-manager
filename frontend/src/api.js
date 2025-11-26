@@ -1,1 +1,5 @@
-import axios from 'axios';export default axios.create({baseURL:'http://localhost:5000'});
+import axios from 'axios';
+
+export default axios.create({
+  baseURL: 'https://simple-task-manager-backend.onrender.com'
+});
